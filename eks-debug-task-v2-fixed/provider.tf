@@ -7,7 +7,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "dummy-eks-bucket"
+    bucket = "handons-terraform-backend"
     key    = "state/eks.tfstate"
     region = "eu-west-1"
   }
