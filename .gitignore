@@ -1,2 +1,3 @@
 .terraform/
 eks-debug-task-fixed/terraform.tfstate.d/
+.terraform/
