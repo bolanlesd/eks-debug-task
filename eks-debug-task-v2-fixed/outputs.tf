@@ -1,3 +1,3 @@
-output "cluster_oidc_issuer_url" {
-  value = module.eks_cluster.cluster_oidc_issuer_url
+output "eks_cluster_endpoint" {
+  value = aws_eks_cluster.demo.endpoint
 }
